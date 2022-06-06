@@ -1,0 +1,54 @@
+.presentation {
+    padding: 70px 0 0 0;
+    background-color: #6425CB;
+}
+
+.presentation__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation__info {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    /*padding: 36.2px 171px 36.41px 0;*/
+    padding: 36.2px 0 36.41px 0;
+}
+
+.presentation__title {
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.presentation__title-important {
+    color: var(--color-primary);
+}
+
+.presentation__description {
+    margin-top: 41px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.presentation__btn-explore {
+    margin-top: 24px;
+    width: 186px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.presentation__image {
+    /*overflow: scroll;*/
+    /* TODO: как это решить*/
+}
+
+.presentation__image img{
+    /* TODO: как это решить*/
+    /*transform: translateX(113px);*/
+    width: 100%;
+}

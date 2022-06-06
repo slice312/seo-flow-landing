@@ -3,9 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+    <link rel="stylesheet" href="styles/index.css">
+
     <title>SEO Flow</title>
 </head>
 <body>
+
+<!-- TODO: нет ограничевающего контейнера-->
+
+<header>
+    <div class="limit-container">
+        <div class="header-contacts">
+            <div class="header-contacts__contacts">
+                <div class="header-contacts__phone">
+                    <div class="header-contacts__icon-wrap">
+                        <img src="assets/icons/phone.svg" alt="phone">
+                    </div>
+                    <p class="header-contacts__text">+1800-123-4567</p>
+                </div>
+                <div class="header-contacts__email">
+                    <div class="header-contacts__icon-wrap">
+                        <img src="assets/icons/telegram.svg" alt="telegram">
+                    </div>
+                    <p class="header-contacts__text">info@brandexponents.com</p>
+                </div>
+            </div>
+            <ul class="header-contacts__socials">
+                <li class="header-contacts__socials-item">
+                    <img src="assets/icons/facebook.svg" alt="facebook">
+                </li>
+                <li class="header-contacts__socials-item">
+                    <img src="assets/icons/twitter.svg" alt="twitter">
+                </li>
+                <li class="header-contacts__socials-item">
+                    <img src="assets/icons/linkedin.svg" alt="linkedin">
+                </li>
+                <li class="header-contacts__socials-item">
+                    <img src="assets/icons/pinterest.svg" alt="pinterest">
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-nav">
+            <div class="header-nav__container">
+                <div class="header-nav__title">
+                    <img src="assets/icons/logo-text.svg" alt="logo-text">
+                </div>
+                <ul class="header-nav__menu">
+                    <li class="header-nav__menu-item">Home</li>
+                    <li class="header-nav__menu-item">Why SEO?</li>
+                    <li class="header-nav__menu-item">Services</li>
+                    <li class="header-nav__menu-item">Team</li>
+                    <li class="header-nav__menu-item">Pricing</li>
+                    <li class="header-nav__menu-item">Blog</li>
+                    <li class="header-nav__menu-item">Contact</li>
+                </ul>
+                <button class="btn-default header-nav__btn">Enquiry</button>
+                <button class="burger-menu-btn header-nav__burger-button" id="burger-menu-btn">
+                    <svg class="burger-menu-btn__icon"
+                         width="40" height="40"
+                         viewBox="0 0 24 24"
+                         fill="currentColor"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.75 4.5H20.25V6H3.75V4.5ZM3.75 11.25H20.25V12.75H3.75V11.25ZM3.75 18H20.25V19.5H3.75V18Z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="presentation">
+    <div class="limit-container presentation__container">
+        <div class="presentation__info">
+            <h1 class="presentation__title">
+                We’re strategic <span class="presentation__title-important">SEO Marketing</span> agency.
+            </h1>
+            <p class="presentation__description">
+                Spyro is a powerful landing pages builder WP theme that lets you build high converting landing pages
+                using its specially crafted modules clubbed inside.
+            </p>
+            <button class="btn-default presentation__btn-explore">
+                Explore Now
+            </button>
+        </div>
+        <div class="presentation__image">
+            <img src="assets/images/we-are-seo-agency.png" alt="we-are-seo-agency">
+        </div>
+    </div>
+</section>
+
 
 </body>
 </html>

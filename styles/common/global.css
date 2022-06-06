@@ -4,10 +4,34 @@
 :root {
     --default-font-family: Nunito, normal;
 
-    --max-width-container: 1440px;
+    --max-width-container: 1180px;
+
+
+    /* Color */
+    --color-primary: #F4AB00;
+
+    --color-bg1: #6425CB;
+
+
+    --color-text-primary: #2C1258;
+    --color-text-secondary: #604B83;
+
 }
 
 body {
     font-family: var(--default-font-family);
     font-weight: 400;
 }
+
+
+.limit-container {
+    max-width: var(--max-width-container);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*@media (max-width: 768px) {*/
+/*    .limit-container {*/
+/*        max-width: 800px;*/
+/*    }*/
+/*}*/
