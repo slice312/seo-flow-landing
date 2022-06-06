@@ -1,0 +1,15 @@
+.check-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px 5px;
+}
+
+.check-list li:before {
+    content: "✓";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 19px;
+    color: var(--color-text-primary);
+}
