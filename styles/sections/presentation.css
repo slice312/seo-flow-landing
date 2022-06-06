@@ -1,19 +1,18 @@
 .presentation {
-    padding: 70px 0 0 0;
-    background-color: #6425CB;
+    padding: 70px 0 76px 0;
+    background-color: var(--color-bg1);
 }
 
 .presentation__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .presentation__info {
     width: 420px;
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
-    /*padding: 36.2px 171px 36.41px 0;*/
     padding: 36.2px 0 36.41px 0;
 }
 
@@ -43,6 +42,7 @@
 }
 
 .presentation__image {
+    /*width: 50%;*/
     /*overflow: scroll;*/
     /* TODO: как это решить*/
 }

@@ -5,6 +5,7 @@ header {
 .header-contacts {
     height: 68px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-bg1);
@@ -12,7 +13,8 @@ header {
 
 .header-contacts__contacts {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    gap: 25px;
 }
 
 .header-contacts__phone {
@@ -69,9 +71,9 @@ header {
     align-items: center;
 }
 
-.header-nav__title {
+.header-nav__logo-text {
+    margin-top: 2px;
 }
-
 
 .header-nav__menu {
     display: flex;
@@ -117,5 +119,30 @@ header {
     .header-nav__burger-button {
         display: block;
     }
+}
 
+
+@media (max-width: 550px) {
+    .header-contacts {
+        /*height: auto;*/
+        /*flex-direction: column;*/
+    }
+    .header-contacts__contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .header-contacts__icon-wrap {
+        margin-right: 4px;
+    }
+
+    .header-contacts__text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .header-nav {
+        height: 64px;
+    }
 }
