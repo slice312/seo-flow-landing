@@ -13,3 +13,13 @@
     margin-right: 19px;
     color: var(--color-text-primary);
 }
+
+
+.check-list_circle li:before {
+    content: "";
+    background-image: url("/assets/icons/check-circle-2.svg");
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
