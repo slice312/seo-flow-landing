@@ -1,0 +1,9 @@
+@import "buttons.css";
+@import "check-list.css";
+
+
+.wave-bg-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}

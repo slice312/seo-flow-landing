@@ -1,0 +1,122 @@
+.seo-steps {
+    background-color: var(--color-bg3);
+}
+
+.seo-steps__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 15px 97px 15px;
+}
+
+.seo-steps__title {
+    max-width: 417px;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.seo-steps__title-important {
+    color: var(--color-primary);
+}
+
+.seo-steps__sub-title {
+    margin-top: 36px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.seo-steps__steps {
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1068px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 15px 0 15px;
+}
+
+.seo-steps__item {
+    max-width: 267px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.seo-steps__item-icon {
+    width: 55px;
+    min-height: 55px;
+}
+
+.seo-steps__item-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.seo-steps__item-title {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.seo-steps__item-description {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.seo-steps__line {
+    margin-top: 2.5%;
+    width: 5%;
+    transform: scaleX(5.2);
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+
+@media (max-width: 768px) {
+    .seo-steps__steps {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 45px;
+        align-items: center;
+    }
+
+    .seo-steps__item {
+        max-width: none;
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .seo-steps__title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .seo-steps__item {
+        max-width: none;
+        width: 70%;
+    }
+}
+
+@media (max-width: 350px) {
+    .seo-steps__title {
+        font-size: 25px;
+    }
+
+    .seo-steps__item {
+        max-width: none;
+        width: 90%;
+        height: auto;
+    }
+}
