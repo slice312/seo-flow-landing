@@ -64,9 +64,13 @@ header {
     align-items: center;
 }
 
-.header-contacts__socials-item:hover {
-    background-color: var(--color-primary);
-    border-radius: 50%;
+.header-contacts__socials-item svg {
+    fill: black;
+}
+
+.header-contacts__socials-item:hover svg {
+    fill: var(--color-primary);
+    transform: scale(1.2);
 }
 
 
@@ -147,7 +151,7 @@ header {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 560px) {
     .header-contacts__contacts {
         display: flex;
         flex-direction: column;
@@ -165,5 +169,12 @@ header {
 
     .header-nav {
         height: 64px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header-contacts__text {
+        font-size: 13px;
+        line-height: 28px;
     }
 }
