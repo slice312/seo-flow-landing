@@ -1,3 +1,2 @@
-@import "common";
-@import "sections";
-
+@import "common/index.css";
+@import "sections/index.css";
