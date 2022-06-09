@@ -14,9 +14,9 @@
     transform: scale(0.98);
 }
 
-/*.btn-default:focus {*/
-/*    outline: 1px solid #7474d5;*/
-/*}*/
+.btn-default:focus {
+    outline: 1px solid gray;
+}
 
 .btn-default:disabled {
     pointer-events: none;
@@ -38,7 +38,3 @@
     background-color: #E5E5E5;
     border-radius: 50%;
 }
-
-
-
-/* TODO: focus кнопки*/

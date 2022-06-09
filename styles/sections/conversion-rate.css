@@ -2,12 +2,6 @@
     background-color: var(--color-bg1);
 }
 
-.conversion-rate__bg-image {
-    width: 100%;
-    background-position: center;
-    background-size: cover
-}
-
 .conversion-rate__container {
     display: flex;
     flex-direction: row;

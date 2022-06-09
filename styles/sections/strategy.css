@@ -14,12 +14,6 @@
     background-color: var(--color-bg1);
 }
 
-.strategy__bg-img {
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
 .strategy__content {
     display: flex;
     flex-direction: row;
