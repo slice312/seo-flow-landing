@@ -1,0 +1,30 @@
+{
+  "name": "zeon_module1.1_seoflowlanding",
+  "version": "1.0.0",
+  "description": "landing page",
+  "author": "slice312",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://slice312.github.io/zeon_module1.1_seoFlowLanding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slice312/zeon_module1.1_seoFlowLanding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slice312/zeon_module1.1_seoFlowLanding/issues"
+  },
+  "keywords": [
+    "landing"
+  ],
+  "scripts": {
+    "predeploy": "webpack --config webpack.config.js",
+    "deploy": "npm run predeploy && gh-pages -d build"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
