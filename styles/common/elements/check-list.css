@@ -14,20 +14,18 @@
     color: var(--color-text-primary);
 }
 
-
 .check-list_circle li:before {
     content: "";
-    background-image: url("/assets/icons/check-circle-2.svg");
+    background-image: url("/src/assets/icons/check-circle-2.svg");
     background-size: cover;
     width: 15px;
     height: 15px;
     align-self: center;
 }
 
-
 li.check-list__item_x-marked:before {
     content: "";
-    background-image: url("/assets/icons/x-mark-red.svg");
+    background-image: url("/src/assets/icons/x-mark-red.svg");
     background-size: cover;
     width: 12px;
     height: 12px;
