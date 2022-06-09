@@ -75,6 +75,14 @@
     .seo-results__info {
         width: 55%;
     }
+
+    .seo-results__check-list li {
+        width: 49.5%;
+    }
+
+    .seo-results__check-list li:before {
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 768px) {
