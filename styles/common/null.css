@@ -45,3 +45,9 @@ input::-ms-clear {
 img {
     vertical-align: top;
 }
+
+/* TODO: т. к. ресетнул здесь, надо везде найти и удалить стили для ссылок*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
