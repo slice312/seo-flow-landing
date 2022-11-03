@@ -52,6 +52,7 @@
 }
 
 .enquiry-form__btn-submit {
+    margin-top: 15px;
     width: 159px;
     height: 57px;
     font-size: 18px;

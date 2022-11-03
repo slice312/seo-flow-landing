@@ -1,25 +1,22 @@
 {
-  "name": "zeon_module1.1_seoflowlanding",
+  "name": "seo-flow-landing",
   "version": "1.0.0",
-  "description": "landing page",
+  "description": "Landing page",
   "author": "slice312",
   "license": "MIT",
   "private": true,
-  "homepage": "https://slice312.github.io/zeon_module1.1_seoFlowLanding",
+  "homepage": "https://github.com/slice312/seo-flow-landing.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slice312/zeon_module1.1_seoFlowLanding.git"
-  },
-  "bugs": {
-    "url": "https://github.com/slice312/zeon_module1.1_seoFlowLanding/issues"
+    "url": "https://github.com/slice312/seo-flow-landing"
   },
   "keywords": [
-    "landing"
+    "landing", "html", "css"
   ],
   "scripts": {
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "4.0.0"
   }
 }
