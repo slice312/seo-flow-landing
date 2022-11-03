@@ -5,7 +5,7 @@
   "author": "slice312",
   "license": "MIT",
   "private": true,
-  "homepage": "https://github.com/slice312/seo-flow-landing.git",
+  "homepage": "https://slice312.github.io/seo-flow-landing/",
   "repository": {
     "type": "git",
     "url": "https://github.com/slice312/seo-flow-landing"
@@ -14,7 +14,7 @@
     "landing", "html", "css"
   ],
   "scripts": {
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d src"
   },
   "devDependencies": {
     "gh-pages": "4.0.0"
